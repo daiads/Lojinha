@@ -11,7 +11,7 @@ namespace Lojinha
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            lblLogin.Text = "Usuário Logado: " + Session["login"].ToString();
         }
     }
 }
